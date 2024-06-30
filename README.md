@@ -13,9 +13,9 @@ Este es un proyecto de ejemplo para correr múltiples pruebas automatizadas con 
 ### Docker
 
 #### Crear imagen de Docker
-```sh
+```
 docker build -t playwright-aws-lambda-ejemplo:latest .
-
+```
 Correr contenedor
 ```
 docker run -p 9000:8080 playwright-aws-lambda-ejemplo:latest
